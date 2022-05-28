@@ -1,0 +1,28 @@
+{
+  "name": "v2telluscoop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tellus-Cooperative/v2telluscoop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tellus-Cooperative/v2telluscoop/issues"
+  },
+  "homepage": "https://github.com/Tellus-Cooperative/v2telluscoop#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "tailwindcss": "^3.0.24"
+  },
+  "dependencies": {
+    "pyscript-js": "^1.2.0"
+  }
+}

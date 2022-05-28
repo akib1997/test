@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>    
+    <title>Airdrop</title>
+</head>
+<body>
+    <div class="flex justify-center min-h-screen bg-blue-100">
+        <div class="flex-col m-10 w-full bg-black rounded-md shadow-lg md:w-full">
+            <div class="flex w-full h-4 bg-black rounded-md">
+                <div class="m-1 w-2 h-2 bg-red-600 rounded-full"></div>
+                <div class="m-1 w-2 h-2 bg-yellow-600 rounded-full"></div>
+                <div class="m-1 w-2 h-2 bg-green-600 rounded-full"></div>
+            </div>
+            <div class="m-2">
+                <h1 class="font-mono text-lg text-white sm:text-base">Welcome to the Cooperative</h1>
+                <h1 class="font-mono text-lg text-white sm:text-base">(testnet) $:</h1>
+                <py-env>
+                </py-env>
+                <py-script class="font-mono text-lg text-white sm:text-base">
+                    print("Hello. Welcome to Tellus Cooperative")
+                    answer = input("Do you want to Rock and Roll?")
+                    if answer == "Y":
+                        print("Buena choro")
+                </py-script>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
