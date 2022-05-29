@@ -507,6 +507,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   bottom: 0px;
 }
 
+.top-0{
+  top: 0px;
+}
+
+.-right-full{
+  right: -100%;
+}
+
 .z-10{
   z-index: 10;
 }
@@ -577,12 +585,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 7rem;
 }
 
+.h-full{
+  height: 100%;
+}
+
 .h-\[300px\]{
   height: 300px;
 }
 
-.h-full{
-  height: 100%;
+.max-h-\[400px\]{
+  max-height: 400px;
+}
+
+.max-h-\[500px\]{
+  max-height: 500px;
 }
 
 .min-h-\[300px\]{
@@ -603,6 +619,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-\[300px\]{
   width: 300px;
+}
+
+.w-3\/5{
+  width: 60%;
+}
+
+.w-2\/5{
+  width: 40%;
 }
 
 .w-9{
@@ -627,6 +651,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .max-w-xl{
   max-width: 36rem;
+}
+
+.max-w-screen-2xl{
+  max-width: 1536px;
 }
 
 .grow{
@@ -668,23 +696,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.-rotate-1{
-  --tw-rotate: -1deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .rotate-1{
   --tw-rotate: 1deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.-skew-y-3{
-  --tw-skew-y: -3deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.skew-x-1{
-  --tw-skew-x: 1deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -761,6 +774,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
   margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.overflow-hidden{
+  overflow: hidden;
 }
 
 .rounded-full{
@@ -861,6 +878,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(255 99 146 / var(--tw-bg-opacity));
 }
 
+.bg-telluscoopDark{
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 51 63 / var(--tw-bg-opacity));
+}
+
 .p-6{
   padding: 1.5rem;
 }
@@ -958,6 +980,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 2.25rem;
 }
 
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -971,11 +998,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.text-lg{
-  font-size: 1.125rem;
-  line-height: 1.75rem;
 }
 
 .font-bold{
@@ -1037,28 +1059,13 @@ html{
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.hover\:rotate-0:hover{
-  --tw-rotate: 0deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .hover\:-rotate-3:hover{
   --tw-rotate: -3deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.hover\:rotate-3:hover{
-  --tw-rotate: 3deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:skew-y-3:hover{
-  --tw-skew-y: 3deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:-skew-y-3:hover{
-  --tw-skew-y: -3deg;
+.hover\:rotate-0:hover{
+  --tw-rotate: 0deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -1069,11 +1076,6 @@ html{
 
 .hover\:skew-x-3:hover{
   --tw-skew-x: 3deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:skew-x-0:hover{
-  --tw-skew-x: 0deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -1104,6 +1106,11 @@ html{
 .hover\:text-telluscoopYellow:hover{
   --tw-text-opacity: 1;
   color: rgb(255 228 94 / var(--tw-text-opacity));
+}
+
+.hover\:text-telluscoopBlue:hover{
+  --tw-text-opacity: 1;
+  color: rgb(90 169 230 / var(--tw-text-opacity));
 }
 
 .focus\:outline-none:focus{
@@ -1223,6 +1230,15 @@ html{
   .md\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .md\:py-20{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .md\:pt-20{
+    padding-top: 5rem;
+  }
 }
 
 @media (min-width: 1024px){
@@ -1288,10 +1304,6 @@ html{
 
   .lg\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .lg\:justify-start{
-    justify-content: flex-start;
   }
 
   .lg\:space-x-10 > :not([hidden]) ~ :not([hidden]){
@@ -1361,6 +1373,18 @@ html{
 @media (min-width: 1280px){
   .xl\:h-\[630px\]{
     height: 630px;
+  }
+
+  .xl\:max-h-\[600px\]{
+    max-height: 600px;
+  }
+
+  .xl\:max-h-\[700px\]{
+    max-height: 700px;
+  }
+
+  .xl\:max-h-\[650px\]{
+    max-height: 650px;
   }
 
   .xl\:w-\[630px\]{

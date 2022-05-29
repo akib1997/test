@@ -53,8 +53,8 @@
                     src="./img/arrow2.svg" alt="WHAT IS IT FOR?">
             </header>
             <div class="banner py-10">
-                <div class="grid md:grid-cols-2 gap-4 items-center">
-                    <div class="sm:text-left text-center">
+                <div class="grid md:grid-cols-2 gap-4">
+                    <div class="sm:text-left text-center md:py-20">
                         <h1 class="lg:text-5xl sm:text-4xl text-3xl uppercase font-flex lg:leading-snug">
                             <span class="block">COOPERATE
                                 WITH
@@ -96,7 +96,7 @@
 
                     </div>
                     <div class="md:block hidden">
-                        <img src="./img/latinamerica.svg" class="w-full" alt="hi">
+                        <img src="./img/latinamerica.svg" class="w-full h-full max-h-[500px] xl:max-h-[650px]" alt="hi">
                     </div>
                 </div>
             </div>
@@ -139,7 +139,7 @@
 
 
     </section>
-    <section class="px- bg-telluscoopRed border-y-4 border-y-black lg:border-x-4 border-x-black">
+    <section class="bg-telluscoopRed border-y-4 border-y-black lg:border-x-4 border-x-black overflow-hidden">
         <div class="max-w-[1440px] w-full mx-auto">
             <div class="grid lg:grid-cols-3">
 
@@ -156,7 +156,9 @@
                     </div>
                 </div>
 
-                <div class="bg-telluscoopYellow px-8 py-20">
+                <div class="bg-telluscoopYellow px-8 py-20 relative">
+                    <span
+                        class="absolute -right-full top-0 bottom-0 h-full bg-telluscoopYellow max-w-screen-2xl w-full"></span>
                     <div class="w-full h-full flex items-center justify-center">
                         <h3 class="font-mono text-4xl font-medium uppercase sm:text-6xl lg:text-5xl">
                             save and leverage your local currency for earnings.
@@ -164,9 +166,8 @@
                     </div>
                 </div>
             </div>
-
-
         </div>
+
     </section>
     <section class="py-20 px-4">
         <div class="max-w-[1440px] w-full mx-auto">
@@ -217,26 +218,32 @@
             </div>
         </div>
     </section>
-    <section class="httfj">
-        <div class="lg:flex border-y-4 lg:border-x-4 border-black">
-            <div class="w-full lg:w-3/5 bg-telluscoopPink">
-                <img src="./img/NFC.svg" alt="debit card" class="w-full h-full p-6 sm:p-12">
-            </div>
-            <div
-                class="w-full lg:w-2/5 lg:border-t-0 border-t-4 lg:border-l-4 border-black bg-darkBlue p-6 sm:p-12 flex items-center justify-center">
-                <div class="py-20 lg:py-12">
-                    <h2 class="font-mono text-4xl lg:text-5xl xl:text-6xl font-medium uppercase text-artisanWhite mb-8">
-                        we are building an international network of <br> small businesses.
-                    </h2>
-                    <div class="text-center">
-                        <button
-                            class="border-4 border-black lg:justify-start font-roboto shadow-brutal text-artisanWhite bg-frenchPink hover:bg-lightCyan hover:text-darkBlue hover:font-semibold hover:-rotate-3 active:bg-artisanWhite uppercase transition-all px-3 py-5 font-bold text-2xl sm:text-3xl xl:text-4xl">LEARN
-                            how!
-                        </button>
+    <section class="relative bg-telluscoopPink border-y-4 border-y-black lg:border-x-4 border-x-black overflow-hidden">
+        <div class="max-w-[1440px] w-full mx-auto">
+            <div class="lg:flex">
+                <div class="w-full lg:w-3/5">
+                    <img src="./img/NFC.svg" alt="debit card" class="w-full h-full p-6 sm:p-12">
+                </div>
+                <div
+                    class="w-full lg:w-2/5 lg:border-t-0 border-t-4 lg:border-l-4 border-black p-6 sm:p-12 flex items-center justify-center bg-telluscoopDark relative">
+                    <span
+                        class="absolute -right-full top-0 bottom-0 h-full bg-telluscoopDark max-w-screen-2xl w-full"></span>
+
+                    <div class="py-20 lg:py-12">
+                        <h2 class="font-mono text-4xl lg:text-5xl xl:text-6xl font-medium text-telluscoopWhite mb-8">
+                            we are building an international network of small businesses.
+                        </h2>
+                        <div class="text-center inline-block relative">
+                            <span class="absolute inset-0 bg-black translate-x-1 translate-y-1 z-0"></span>
+                            <button
+                                class="border-4 border-black font-roboto text-telluscoopWhite bg-telluscoopPink hover:font-semibold hover:-rotate-3 uppercase transition-all px-3 py-5 font-bold text-2xl sm:text-3xl xl:text-4xl relative z-10">LEARN
+                                how!
+                            </button>
+                        </div>
                     </div>
                 </div>
-            </div>
 
+            </div>
         </div>
     </section>
 

@@ -9,6 +9,7 @@ module.exports = {
         telluscoopRed: "#E02020",
         telluscoopBlue: "#5AA9E6",
         telluscoopGreen: "#71C666",
+        telluscoopDark: "#22333F",
       },
       // boxShadow: {
       //   brutal: "12px 12px 0px 0px rgba(0, 0, 0, 1)",
